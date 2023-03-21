@@ -1,0 +1,42 @@
+body{
+    background-color: #312e39;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card{
+    background-color: black;
+    padding: 20px;
+    border: 3px solid #1927FF;
+    border-radius: 10px;
+    width: 30%;
+    color: white;
+}
+
+.card .heading{
+    font-size: 24px;
+    color: white;
+    display: block;
+    margin: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card form{
+    display: flex;
+    flex-direction: column;
+}
+
+.card form label{
+    margin: 10px;
+}
+
+.card form input{
+    background-color: #423644;
+    border: 2px solid #1927FF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
