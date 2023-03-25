@@ -1,0 +1,81 @@
+body{
+    background-color: #312e39;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.card{
+    background-color: black;
+    padding: 10px;
+    border: 3px solid #FF9F40;
+    border-radius: 10px;
+    width: 30%;
+    color: white;
+}
+.card2{
+    background-color: black;
+    padding: 10px;
+    border: 3px solid #FF9F40;
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+    color: white;
+}
+
+.card form{
+    display: flex;
+    flex-direction: column;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+}
+
+.card form label{
+    margin: 5px;
+}
+
+.card2 label{
+    margin: 5px;
+}
+
+.card form input{
+    background-color: #423644;
+    border: 2px solid #FF9F40;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.card form select{
+    background-color: #423644;
+    border: 2px solid #FF9F40;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.card form button{
+    background-color: #423644;
+    border: 2px solid #FF9F40;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card form button:hover{
+    background-color: #FF9F40;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: #FF9F40 0px 10px 20px 0px;
+}
+
+div h2{
+    text-align: center;
+}
