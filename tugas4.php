@@ -8,7 +8,7 @@
         <thead>
             <h2>
                 Form Registrasi
-        </h2>
+            </h2>
         </thead>
         <tbody>
             <form method="POST">
